@@ -21,9 +21,36 @@ This new assignment consists of three technical analysis deliverables and a prop
 - Software: Git version 2.33.0.windows.2, Visual Studio 1.62.2, RStudio RStudio 2021.09.2+382 "Ghost Orchid" Release (fc9e217980ee9320126e33cdf334d4f4e105dc4f, 2022-01-04) for Windows
 
 ## Deliverables:
-### Deliverable 1:
-![Pic 1]
-1.
+### Linear Regression to Predict MPG
+- Mechacar File was uploaded using library function.
+![1Mechacaruploades](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/1Mechacaruploades.png)
+
+- Linear regression was run using de lm function. 
+![2LineaRegression](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/2LineaRegression.png)
+
+- P Value and r-squared value was obtained using summary function-
+![p-valuer-squaredvalue](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/p-valuer-squaredvalue.png)
+
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+- mpg: Result: 5.08 e-08 is less than 5% then NON-RANDOM AMOUNT OF VARIANCE
+- vehicle_length: Result: 2.60 e-12 is less than 5% then NON-RANDOM AMOUNT OF VARIANCE
+- vehicle_weight: Result: 0.07776 is greater than 5% then RANDOM AMOUNT OF VARIANCE
+- spoiler_angle: Result: 0.3069 is greater than 5% then RANDOM AMOUNT OF VARIANCE
+- ground_clearance: Result: 5.21 e-08 is less than 5% then NON-RANDOM AMOUNT OF VARIANCE
+- AWD: Result: 0.1852 is greater than 5% then RANDOM AMOUNT OF VARIANCE
+
+2. Is the slope of the linear model considered to be zero? Why or why not?
+
+Considering the Estimates, linear model would be:
+- mpg = -0.01040 + 6.267(vehicle_length)+ 0.001245(vehicle_weight)+ 0.06877(spoiler_angle)+ 3.546(ground_clearance)- 3.411(AWD)
+
+- RESULT: NON ZERO FORMULA
+
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Yes it is a model to predict mpg. R-squared is 0.7149 and adjusted R-squared is 0.6825, this means a strong correclation. Maybe considering other variables not in the model can adjust de correlation and be more exactly or less correlative.
+
+
 2.
 3.
 4.
