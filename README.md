@@ -43,18 +43,31 @@ This new assignment consists of three technical analysis deliverables and a prop
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
 Considering the Estimates, linear model would be:
-- mpg = -0.01040 + 6.267(vehicle_length)+ 0.001245(vehicle_weight)+ 0.06877(spoiler_angle)+ 3.546(ground_clearance)- 3.411(AWD)
 
-- RESULT: NON ZERO FORMULA
+mpg = -0.01040 + 6.267(vehicle_length)+ 0.001245(vehicle_weight)+ 0.06877(spoiler_angle)+ 3.546(ground_clearance)- 3.411(AWD)
+
+RESULT: NON ZERO FORMULA
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 Yes it is a model to predict mpg. R-squared is 0.7149 and adjusted R-squared is 0.6825, this means a strong correclation. Maybe considering other variables not in the model can adjust de correlation and be more exactly or less correlative.
 
+## Summary Statistics on Suspension Coils
+- Suspension Coils File was imported.
+![Suspensioncoilupload](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Suspensioncoilupload.png)
 
-2.
-3.
-4.
+- Dataframe using the summarize function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+![Totalsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Totalsummary.png)
 
+- Dataframe using the group_by and the summarize functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+![Lotsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Lotsummary.png)
+
+
+1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The variance of suspension coils does not exceed 100, the result is 62.29. One relevant consideration, the total variance does not exceed, but if you review each Lot (third picture above), Lot 3 shows a variance of 170, whivh exceed expected 100 pounds. then then per loyt we can assume that Lot 1 and Lot 2 meet desing specifications, butu Lot 3 does not. 
+
+## T-Tests on Suspension Coils
 
 Regards
 
