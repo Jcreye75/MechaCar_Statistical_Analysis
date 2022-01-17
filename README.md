@@ -54,13 +54,13 @@ Yes it is a model to predict mpg. R-squared is 0.7149 and adjusted R-squared is 
 
 ## Summary Statistics on Suspension Coils
 - Suspension Coils File was imported.
-![Suspensioncoilupload](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Suspensioncoilupload.png)
+![Suspensioncoilupload](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/d4382d774957eb36f0c14c45dea954f14498e739/Resources/Suspensioncoilupload.png)
 
 - Dataframe using the summarize function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-![Totalsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Totalsummary.png)
+![Totalsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/d4382d774957eb36f0c14c45dea954f14498e739/Resources/Totalsummary.png)
 
 - Dataframe using the group_by and the summarize functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-![Lotsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/054bf15ca73f5efd72b9405955ff347e907c707d/Resources/Lotsummary.png)
+![Lotsummary](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/d4382d774957eb36f0c14c45dea954f14498e739/Resources/Lotsummary.png)
 
 
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
