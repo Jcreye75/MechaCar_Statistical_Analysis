@@ -65,7 +65,7 @@ Yes it is a model to predict mpg. R-squared is 0.7149 and adjusted R-squared is 
 
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-The variance of suspension coils does not exceed 100, the result is 62.29. One relevant consideration, the total variance does not exceed, but if you review each Lot (third picture above), Lot 3 shows a variance of 170, whivh exceed expected 100 pounds. then then per loyt we can assume that Lot 1 and Lot 2 meet desing specifications, butu Lot 3 does not. 
+The variance of suspension coils does not exceed 100, the result is 62.29. One relevant consideration, the total variance does not exceed, but if you review each Lot (third picture above), Lot 3 shows a variance of 170, whivh exceed expected 100 pounds. then then per loyt we can assume that Lot 1 and Lot 2 meet desing specifications, but Lot 3 does not. 
 
 ## T-Tests on Suspension Coils
 
