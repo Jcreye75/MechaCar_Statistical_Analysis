@@ -21,6 +21,8 @@ This new assignment consists of three technical analysis deliverables and a prop
 - Software: Git version 2.33.0.windows.2, Visual Studio 1.62.2, RStudio RStudio 2021.09.2+382 "Ghost Orchid" Release (fc9e217980ee9320126e33cdf334d4f4e105dc4f, 2022-01-04) for Windows
 
 ## Deliverables:
+### Deliverable 1:
+![Pic 1]
 1.
 2.
 3.
