@@ -69,6 +69,62 @@ The variance of suspension coils does not exceed 100, the result is 62.29. One r
 
 ## T-Tests on Suspension Coils
 
+1. T-Tests on Suspension Coils All Lots
+
+- Assuming our significance level was the common 0.05 percent, our P-value = 1 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+- Mean - within the within the 95% confidence interval.
+
+![TotalTest](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TotalTest.png)
+
+
+2. T-Tests on Suspension Coils Lot 1
+
+- Assuming our significance level was the common 0.05 percent, our P-value = 1.568 e-11 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are no-statistically similar.
+- Mean - within the within the 95% confidence interval.
+
+![TestLot1](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot1.png)
+
+3. T-Tests on Suspension Coils Lot 2
+
+- Assuming our significance level was the common 0.05 percent, our P-value = 0.0005911 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are no-statistically similar.
+- Mean - within the within the 95% confidence interval.
+
+![TestLot2](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot2.png)
+
+4. T-Tests on Suspension Coils Lot 3
+
+- Assuming our significance level was the common 0.05 percent, our P-value = 0.15 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+- Mean - within the within the 95% confidence interval.
+
+![TestLot3](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot3.png)
+
+
+## Study Design: MechaCar vs Competition
+
+### Short descprition of a statistical
+MechaCar can be compared with its competitor’s using other metrics as follows:
+- cost,
+- city fuel efficiency,
+- highway fuel efficiency,
+- horsepower, 
+- maintenance cost, 
+- safety rating,
+- color,
+- stole ratio per state.
+
+1. What metric or metrics are you going to test?   
+I would test cost, city fuel efficiency, highway fuel efficiency and maintenance cost which are the mainly concerns when a customer get a car.
+
+2. What is the null hypothesis or alternative hypothesis?    
+- The null hypothesis is: mean of cost is zero. 
+- The alternative hypothesis is: mean of cost is not zero.
+
+3. What statistical test would you use to test the hypothesis? And why?     
+I wouold use linear regression summary, in order to obtain cost ratios for competitors and prove the Mechacar is cheaper then others.
+
+4. What data is needed to run the statistical test?     
+Obtain at least 33 observations per each competitors car in order to have statistical information and the run statistic on RStudio to obtain comparisons.
+
 Regards
 
 JC
