@@ -71,32 +71,32 @@ The variance of suspension coils does not exceed 100, the result is 62.29. One r
 
 1. T-Tests on Suspension Coils All Lots
 
-- Assuming our significance level was the common 0.05 percent, our P-value = 1 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+- Assuming our significance level was the common 0.05 percent, our P-value = 0.06028 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 - Mean - within the within the 95% confidence interval.
 
-![TotalTest](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TotalTest.png)
+![TotalTestCorrected](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/28548d9cbb288125fbb0f617651f03043c38c17b/Resources/TestLot3Corrected.png)
 
 
 2. T-Tests on Suspension Coils Lot 1
 
-- Assuming our significance level was the common 0.05 percent, our P-value = 1.568 e-11 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are no-statistically similar.
+- Assuming our significance level was the common 0.05 percent, our P-value = 1 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 - Mean - within the within the 95% confidence interval.
 
-![TestLot1](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot1.png)
+![TestLot1Corrected](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/28548d9cbb288125fbb0f617651f03043c38c17b/Resources/TestLot1Corrected.png)
 
 3. T-Tests on Suspension Coils Lot 2
 
-- Assuming our significance level was the common 0.05 percent, our P-value = 0.0005911 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are no-statistically similar.
+- Assuming our significance level was the common 0.05 percent, our P-value = 0.6072 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 - Mean - within the within the 95% confidence interval.
 
-![TestLot2](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot2.png)
+![TestLot2Corrected](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/28548d9cbb288125fbb0f617651f03043c38c17b/Resources/TestLot2Corrected.png)
 
 4. T-Tests on Suspension Coils Lot 3
 
-- Assuming our significance level was the common 0.05 percent, our P-value = 0.15 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+- Assuming our significance level was the common 0.05 percent, our P-value = 0.04168 is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are no-statistically similar.
 - Mean - within the within the 95% confidence interval.
 
-![TestLot3](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/5b37c31ead0ab9af4955e6b792bf3bdce9992b96/Resources/TestLot3.png)
+![TestLot3Corrected](https://github.com/Jcreye75/MechaCar_Statistical_Analysis/blob/28548d9cbb288125fbb0f617651f03043c38c17b/Resources/TestLot3Corrected.png)
 
 
 ## Study Design: MechaCar vs Competition
